@@ -1,3 +1,41 @@
+/* Resetando margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #0056b3;
+    padding: 20px 40px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #f39c12;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -6,7 +44,7 @@ body {
 }
 
 header {
-    background-color: #af6b4c;
+    background-color: #181818;
     color: #fff;
     padding: 16px;
     text-align: center;
@@ -60,7 +98,7 @@ input {
 }
 
 footer {
-    background-color: #af6b4c;
+    background-color: #181818;
     padding: 16px;
     text-align: center;
     color: #FFF;
